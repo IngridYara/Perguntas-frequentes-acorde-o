@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    display: grid;
+    place-items: center;
+    background: transparent url('assets/images/background-pattern-desktop.svg') no-repeat;
+    background-position: center top;
+    background-size: cover;
+    height: 40vh;
+    background-color:  hsl(275, 100%, 97%);
+}
+
+article#conteudo{
+
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 160px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding:5px 35px;
+    font-family: 'Work Sans', sans-serif;
+    width: 40vw;
+
+    box-shadow: hsla(291, 37%, 83%, 0.41) 4px 1px 7px -10px, hsla(291, 37%, 83%, 0.41) 15px 35px 40px -7px;
+}
+
+article#conteudo img{
+
+    display: inline-block;
+    height: 40px;
+    padding-right: 15px;
+}
+
+article#conteudo h1{
+
+    font-size: 50px;
+    font-weight: 700;
+    display: inline-block;
+    margin: 20px 0px 30px 0px;
+}
+
+article#conteudo div#sanfona{
+
+    justify-content: space-between;
+    display: flex;
+    padding:15px 0px 10px 0px;
+}
+
+article#conteudo  div#sanfona h3{
+
+    font-weight: 600;
+    color: hsl(292, 42%, 14%);
+    display: inline;
+    margin: 0px;
+    padding: 0px;
+    width: 50vw;
+    justify-content: space-between;
+}
+
+article#conteudo  div#sanfona img.icon{
+
+    height: 30px;
+    display: inline-block;
+    padding-top: 0px;
+    margin: 0 auto;
+ 
+}
+
+article#conteudo  p{
+
+    color: hsl(292, 16%, 49%);
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 15px;
+    text-align: left;
+}
+
+@media screen and (max-width:600px){
+
+    body{
+
+        height: 30vh;
+
+    }
+
+    article#conteudo{
+
+        width: 70vw;
+        margin-top: 130px;
+    }
+
+    article#conteudo h1{
+
+        font-size: 35px;
+        margin-bottom: 5px;
+        padding-bottom: 0px;
+
+    }
+
+    article#conteudo img{
+
+        height: 30px;
+       
+    }
+
+    article#conteudo div#sanfona h3{
+
+        font-size: 17px;
+
+    }
+
+    
+}
+
+
+@media screen and (min-width:601px) and (max-width:768px){
+
+    body{
+
+        height: 30vh;
+
+    }
+
+    article#conteudo{
+
+        width: 70vw;
+        margin-top: 130px;
+    }
+
+    article#conteudo h1{
+
+        font-size: 35px;
+        margin-bottom: 5px;
+        padding-bottom: 0px;
+
+    }
+
+    article#conteudo img{
+
+        height: 30px;
+       
+    }
+
+    article#conteudo div#sanfona h3{
+
+        font-size: 17px;
+
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:900px){
+
+    body{
+
+        height: 40vh;
+    }
+
+    article#conteudo{
+
+        width: 70vw;
+        margin-top: 130px;
+    }
+
+    article#conteudo h1{
+
+        font-size: 35px;
+        margin-bottom: 5px;
+        padding-bottom: 0px;
+
+    }
+
+    article#conteudo img{
+
+        height: 30px;
+    }
+
+    article#conteudo div#sanfona h3{
+
+        font-size: 19px;
+
+    }
+
+    article#conteudo p{
+
+        font-size: 15px;
+
+    }
+}
+
+
+@media screen and (min-width: 901px) and (max-width: 1267px){
+
+    body{
+
+        height: 40vh;
+    }
+
+    article#conteudo{
+
+        width: 40vw;
+        margin-top: 130px;
+    }
+
+    article#conteudo h1{
+
+        font-size: 35px;
+        margin-bottom: 5px;
+        padding-bottom: 0px;
+
+    }
+
+    article#conteudo img{
+
+        height: 30px;
+    }
+
+    article#conteudo div#sanfona h3{
+
+        font-size: 19px;
+
+    }
+
+    article#conteudo p{
+
+        font-size: 15px;
+
+    }
+}
+
+
